@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
 
 1.Clone the repository:
 
-  git clone https://github.com/Devendra2015308/excitel-clone.git
+  (https://github.com/Devendra2015308/Personal_ExicitelBroadbandConnection_Website)
 
 2.Install dependencies:
 
