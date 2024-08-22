@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.heading h1 {
+  font-size: 50px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.monsoon {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.plan-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.plan-img img {
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: contain;
+}
+
+/* Container for the Section */
+.why-choose-excitel-bd {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+  max-width: 1600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Title */
+.section-title {
+  font-size: 31px;
+  /* margin-left: 150px; */
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: #333;
+}
+
+/* Section Paragraph */
+.why-choose-excitel-bd p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+/* List Style */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* List Items */
+ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .why-choose-excitel-bd {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+}

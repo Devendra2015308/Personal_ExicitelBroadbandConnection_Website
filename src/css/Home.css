@@ -1,0 +1,275 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Internet Provider Component */
+  .internet-provider {
+    width: 100%;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bolder;
+  }
+  
+  .plan-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .plan-img img {
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+  }
+
+  /* Header Section */
+  .header-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .main-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Power Factors Section */
+
+  .power-factors-section {
+    background-color: #ff6600;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .section-title1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .factors {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .factor {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .factor-icon {
+    background-color: #ff6600;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .factor-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .factor-description {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  /* Servie Section */
+
+  .service-section {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .service-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .service-block:nth-child(even) .service-image {
+    order: 2;
+  }
+  
+  .service-image1 {
+    flex: 1;
+    padding: 0 5px;
+  }
+  
+  .service-image1 img {
+    max-width: 70%;
+    margin-left: 40%;
+    border-radius: 8px;
+  }
+  
+  .service-image2 {
+    flex: 1;
+    padding: 0 5px;
+  }
+  
+  .service-image2 img {
+    max-width: 70%;
+    margin-left: 40%;
+    border-radius: 8px;
+  }
+
+  .service-text {
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 20px;
+  }
+  
+  .service-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+  }
+  
+  .service-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+ 
+  /* Benefits Excitel  */
+  
+  .benefits-excitel-main {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .benefits-cl {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .line_white {
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .line_white:last-child {
+    border-right: none;
+  }
+  
+  .book_block {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .icons {
+    margin-bottom: 10px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book_block h4 {
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+  
+  .super-fast-cl {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .super-fast-cl h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .connection-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  /* Whatsapp Button  */
+  
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .whatsapp-button span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 28px;
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  
+    .section-title {
+      font-size: 24px;
+    }
+  
+    .factor-icon img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .factor-description {
+      font-size: 14px;
+    }
+  }
+  
